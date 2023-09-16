@@ -1,5 +1,6 @@
 async function fetchUrl(){
     const url = 'https://soundcloud-scraper.p.rapidapi.com/v1/track/metadata?track=https://soundcloud.com/bensonboone/in-the-stars?si=51709ce00fc84b6eb90f6f4e39fbc3ef&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing';
+    // Replace the track url with your song url from Sound Cloud, do not change the api url, start replacing after "track="
     const options = {
         method: 'GET',
         headers: {
@@ -12,7 +13,7 @@ async function fetchUrl(){
     const result = await response.json();
     loadUrl = result.audio[0].url;
     
-    let audioUrl = loadUrl // Replace this URL with yours.
+    let audioUrl = loadUrl 
     let fileName = "song.mp3"; // Replace the name and the extension with yours.
 
     /**
