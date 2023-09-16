@@ -1,0 +1,15 @@
+{
+    "name": "SoundLoad",
+    "version": "1.0.0",
+    "description": "This extension downloads songs from SoundCloud",
+    "manifest_version": 3,
+    "author": "Gurkirat Kaur",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "SoundLoad"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": ["activeTab"]
+}
