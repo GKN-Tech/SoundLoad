@@ -1,4 +1,4 @@
-# SoundLoad
+# SoundLoad - SoundCloud Songs Downloader
 Google Chrome extension that allows to download the songs from SoundCloud _(Without a paid account)_
 
 - Simply run _popup.html_
